@@ -2,12 +2,12 @@ Output:
 console.log - to terminal
 alert() - modal
 
-Types: 
-numberm string="" or ''. boolean
- Undefined :- variable that has not been assigned a value is of type undefined. A method or statement also returns undefined if the variable that is being evaluated does not have an assigned value. A function returns undefined if a value was not returned.
+Types:-
+number, string="" or '', boolean.
+Undefined :- variable that has not been assigned a value is of type undefined. A method or statement also returns undefined if the variable that is being evaluated does not have an assigned value. A function returns undefined if a value was not returned.
 Undefined is a variable that refers to something that doesn't exist, and the variable isn't defined to be anything.
 null is a variable that is defined but is missing a value
- let a;
+let a;
 console.log(a); // undefined
 
 let b = null;
