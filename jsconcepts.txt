@@ -105,8 +105,41 @@ types = primitive, object.
 mutable(value changes)- object, arrays, immutable(value does not change)-numbers, booleans, null, undefined
 
 automatic type conversion.
+untyped variables.
+var declared outside a function: global vars, visible everywhere
+inside a function: function scope, visible only to code appearing inside the function.
 
+Numbers: 
+JS doesn't distinguish between integer, floating point values. all nums : FP
 
+NaN : not a number(0 by 0)
+x == NaN no
+x!=x yes, true iff x is NaN
+
+Date(): for creating objects that represent date
+var now=new Date() : current date and time
+var then=new Date(2010,0,1) 
+var elapsed = now-then;
+
++ : numbers - addition, strings - concatenation
+var s= "hello";
+s.charAt(0);
+s.substring(1,4);
+s.slice(1,4);
+s.slice(-3);
+s.lastIndexOf("l");
+s.split(","); //to split one word with space into 2
+s.replace("h","H");
+s.toUpperCase()
+
+Regex: 
+/^HTML/ : match at start
+/[1-9][0-9]*/ 
+/\bjavascript\b/i : match js, case-insensitive
+
+console.log("7"*"3") \\21
+
+always use var to declare local variables. 
 
 
 
